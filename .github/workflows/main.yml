@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: alexvenom/TestCiCd@v1
+        uses: kopfan/TestCiCd@v1
         with:
           appid: 'ThisIsMyAppId'
       # Use the output from the `hello` step
